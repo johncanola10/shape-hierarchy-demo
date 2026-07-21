@@ -1,13 +1,25 @@
 # Shape Hierarchy Demo
 
-Java project demonstrating inheritance and polymorphism with `Shape`, `Sphere`, `Cylinder`, and `Cone`.
+Java OOP demo showing inheritance and polymorphism across several 3D shapes.
 
-## Features
+## What It Demonstrates
 
-- abstract base class for shared behaviour
-- concrete shape implementations
-- surface area and volume calculations
-- array-based polymorphism demo in `ShapeArray`
+- abstract base classes
+- subclass implementations
+- overridden methods
+- polymorphic behaviour through a shared `Shape[]`
+
+## Included Shapes
+
+- `Sphere`
+- `Cylinder`
+- `Cone`
+
+Each shape implements:
+
+- `surface_area()`
+- `volume()`
+- `toString()`
 
 ## Run
 
@@ -16,6 +28,12 @@ javac Shape.java Sphere.java Cylinder.java Cone.java ShapeArray.java
 java ShapeArray
 ```
 
+## Files
+
+- `Shape.java` defines the abstract base type
+- `Sphere.java`, `Cylinder.java`, and `Cone.java` implement concrete shapes
+- `ShapeArray.java` creates the objects and prints them through a polymorphic array
+
 ## Notes
 
-This is a clean OOP demo and one of the better Java projects from the original coursework bundle.
+This is one of the cleaner Java examples from the coursework bundle because the intent is obvious and the class relationships are easy to follow.
