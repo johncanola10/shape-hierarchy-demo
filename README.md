@@ -28,6 +28,27 @@ javac Shape.java Sphere.java Cylinder.java Cone.java ShapeArray.java
 java ShapeArray
 ```
 
+## Sample Output
+
+```text
+Sphere
+Radius: 3.0
+Surface Area: 113.09733552923255
+Volume: 113.09733552923254
+
+Cylinder
+Radius: 2.0
+Height: 5.0
+Surface Area: 175.92918860102841
+Volume: 62.83185307179586
+
+Cone
+Radius: 2.0
+Height: 4.0
+Surface Area: 40.665629538522076
+Volume: 16.755160819145562
+```
+
 ## Files
 
 - `Shape.java` defines the abstract base type
